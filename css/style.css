@@ -1,0 +1,95 @@
+
+body{
+    background-color:whitesmoke;
+    margin: 0 auto;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 100px;
+    margin-top: -4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+.actvice-link{
+    background-color: pink;
+}
+a{
+    text-decoration: none;   
+}
+header{
+    background-color: whitesmoke;
+    height:28vh ;
+    margin-top:-1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:5px;
+    padding: 10px;
+}
+.card{
+    background-color:white;
+    padding:5px;
+    margin: 5px;
+    width: 43.5vh;
+    height: 25vh;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.full-card{
+    margin:5px;
+    background-color: white;
+    padding: 10px;
+    width:65%;
+    height: 30vh;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+caption{
+    font: 2rem sans-serif;
+    font-weight: bold;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;  
+}
+thead tr:nth-child(1){
+    border-bottom: 2px solid white;
+}
+thead th:nth-last-of-type(1),
+tbody td:nth-last-of-type(1){
+    background: rgb(24, 94, 117);
+}
+thead th:nth-last-of-type(2),
+tbody td:nth-last-of-type(2){
+    background: rgb(30, 117, 146);
+}
+thead th:nth-last-of-type(3),
+tbody td:nth-last-of-type(3){
+    background: rgb(39, 142, 177);
+}
+thead th:nth-last-of-type(4),
+tbody td:nth-last-of-type(4){
+    background: rgb(55, 180, 221);
+}
+tbody td,
+thead th
+{
+    border: 10px;
+    width: 20%;
+    height: 5vh;
+}
